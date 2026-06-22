@@ -622,7 +622,7 @@ knitr::read_chunk("example.R")
 1 + 1
 ```
 
-When you execute the empty chunk in the notebook `example.Rmd`, code from the external file `example.R` will be inserted, and the results displayed inline, as though the chunk contained that code (Figure \@ref(fig:notebook-external-code)).
+When you execute the empty chunk in the notebook `example.Rmd`, code from the external file `example.R` will be inserted, and the results displayed inlineffgds as though the chunk contained that code (Figure \@ref(fig:notebook-external-code)).
 
 ```{r notebook-external-code, echo=FALSE, fig.cap='Execute a code chunk read from an external R script.', out.width='70%', fig.align='center'}
 knitr::include_graphics('images/notebook-external-code.png', dpi = NA)
